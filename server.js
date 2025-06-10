@@ -14,7 +14,7 @@ app.use(morgan("combined"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Serve static files
+
 app.use(express.static(path.join(__dirname, "public")));
 
 // ===== GENRES API ENDPOINTS =====
